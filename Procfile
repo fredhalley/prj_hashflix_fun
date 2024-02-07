@@ -1,1 +1,1 @@
-web: python manage.py migrate && gunicorn prj_hashflix_fun.wsgi --log-file -
+web: pip install --upgrade pip && python manage.py migrate && gunicorn prj_hashflix_fun.wsgi --log-file -
